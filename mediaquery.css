@@ -1,0 +1,18 @@
+div{
+    width: 300px;
+    background-color: rgb(255, 0, 0);
+}
+p{
+    font-size: small;
+}
+@media(orientation:landscape){
+    div{
+        background-color: aqua;
+    }
+    p{
+        font-size: x-large;
+    }
+    span{
+        display: none;
+    }
+}
